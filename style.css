@@ -152,6 +152,19 @@ a{
 
 
 @media only screen and (max-width: 800px){
+    body{
+        background-image: url(img/Bacgroud.avif);
+        background-size:cover;
+        background-repeat: no-repeat;    
+        
+    }
+    .intro::before{
+        content: "ODIN: ";
+        color:aqua;
+    }
+    .intro{
+        color: #cecece;
+    }
     aside{
         visibility:hidden
     }
